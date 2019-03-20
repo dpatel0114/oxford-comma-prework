@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  if array.length ==3
+  if array.length == 3
     result =""
     result << array.slice(0,2).join(",")
     result << " and #{array.last}"
