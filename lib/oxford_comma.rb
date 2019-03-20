@@ -4,6 +4,7 @@ def oxford_comma(array)
     result << array.slice(0,2).join(",")
     result << " and #{array.last}"
     return result
+  end
   array.join( " and " )
 end
 
