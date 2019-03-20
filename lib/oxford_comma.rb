@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  if array.length == 3
+  if array.length >= 3
     result = ""
     for i in 0...array.length-1
     result << "#{array[i]}, "
